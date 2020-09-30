@@ -22,3 +22,4 @@ class m200928_125912_create_categories_table extends Migration
     }
     
 } // End
+ 
