@@ -6,4 +6,4 @@ use backend\models\Categories ;
 <strong> Mark:</strong> <?=$categories->mark ?>
 <strong> Model:</strong> <?=$categories->model ?>
 <strong> Engine:</strong> <?=$categories->engine ?>
-<strong> Transmission:</strong> <?=$categories->transmission ?>
+<strong> Transmission:</strong> <?=$categories->transmission ?> 
