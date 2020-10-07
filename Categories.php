@@ -1,12 +1,10 @@
 <?php
-
 namespace backend\models;
 
 use Yii;
 
 class Categories extends \yii\db\ActiveRecord
 {
-    
     public static function tableName()
     {
         return 'categories';
@@ -31,5 +29,4 @@ class Categories extends \yii\db\ActiveRecord
         ];
     }
 
-    
-} // End
+} // End of the model
