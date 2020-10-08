@@ -1,9 +1,6 @@
 <?php
-
 namespace frontend\controllers;
 
-use frontend\models\ResendVerificationEmailForm;
-use frontend\models\VerifyEmailForm;
 use Yii;
 use yii\base\InvalidArgumentException;
 use yii\web\BadRequestHttpException;
@@ -16,7 +13,6 @@ class CategoriesController extends Controller {
     public function actionIndex() {
         
        $categories = Categories::find()->all() ;   
-        
        return $this->render('index', ['categories' => $categories]) ;
     }
     
@@ -26,7 +22,5 @@ class CategoriesController extends Controller {
         return $this->render('view', ['categories' => $categories]) ;
     }
     
-    
-} // End
-
+} // End of the controller
 ?>
